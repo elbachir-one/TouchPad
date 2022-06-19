@@ -1,6 +1,7 @@
 # How to set TouchPad Tapping.
 
-1. sudo vim /etc/X11/xorg.conf.d/30-touchpad.conf
+1. 
+`$ sudo vim /etc/X11/xorg.conf.d/30-touchpad.conf`
 
 Section "InputClass"
 	Identifier "devname"
