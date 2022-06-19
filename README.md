@@ -8,11 +8,11 @@ NOTE: if xorg.conf.d does not exist, create one.
 
 2. Put this code inside the file.
 
-	Section "InputClass"
-		Identifier "devname"
-		Driver "libinput"
-			Option "Tapping" "on"
-			Option "NaturalScrolling" "true"
-	EndSection
+		Section "InputClass"
+			Identifier "devname"
+			Driver "libinput"
+				Option "Tapping" "on"
+				Option "NaturalScrolling" "true"
+		EndSection
 
 3. Exit and save the file and reboot your system.
