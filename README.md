@@ -17,4 +17,4 @@ NOTE: if xorg.conf.d does not exist, create one `$ sudo mkdir /etc/X11/xorg.conf
 				Option "NaturalScrolling" "true"
 		EndSection
 
-3. Exit and save the file and reboot your system.
+3. Save and exit the file and reboot your system.
